@@ -1,0 +1,20 @@
+# Jekyll configuration
+
+# Title of your site
+title: My Portfolio
+
+# Description of your site
+description: A portfolio showcasing my work and projects.
+
+# Base URL
+baseurl: ""
+
+# Author information
+author:
+  name: Vinodh8090
+  email: vinodh8090@example.com
+
+# Build settings
+theme: minima
+
+# Other configurations can be added here as needed.
