@@ -1,9 +1,9 @@
 export const personalData = {
   name: "Vinodh Karthik",
   profile: "/profile.png",
-  designation: "Full Stack Developer",
+  designation: "Full Stack Developer, AI Engineer & Mobile Developer",
   description:
-    "My name is Vinodh Karthik. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+    "Experienced Full Stack Developer, AI Engineer & Mobile Developer with 5+ years of experience in Python, ReactJS, NextJS, NodeJS, Flutter, and AI/ML technologies. Over the past 2 years, extensively worked on AI projects including LLM applications, agentic AI systems, and intelligent automation. Proven track record of designing scalable applications across web, mobile, and AI domains, optimizing system performance, and leading innovative solutions. Quick learner with a self-learning attitude, passionate about problem-solving and exploring new technologies.",
   email: "vinodhkarthik84@gmail.com",
   phone: "+918553692266",
   address: "#10 , 1st cross Magadi road, Bangalore - 560023",
