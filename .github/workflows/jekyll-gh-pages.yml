@@ -1,0 +1,26 @@
+# Jekyll GitHub Pages Deployment
+
+name: Jekyll GitHub Pages Deployment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+      - name: Build and deploy
+        run: |
+          bundle exec jekyll build
+          bundle exec jekyll serve --detach
